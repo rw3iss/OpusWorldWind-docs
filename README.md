@@ -10,6 +10,8 @@ OpusWorldWind is an extension library for NASA's WebWorldWind library, located a
 
 Run `npm install` to install node dependencies. Tested on node v12.16.3, but any version should work.
 
+These scripts assume a global @angular/cli installation: `npm install -g @angular/cli`, but they can also be run locally with: `node_modules/.bin/ng <command>`.
+
 ## Development server
 
 Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
