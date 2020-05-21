@@ -18,5 +18,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Documentation
 
-Run `npm run docs` to generate documentation for OpusWorldWind, which is rendered to './src/docs';
-The documentation is generated from the code in `src/inclde/OpusWorldWind`, which is a direct clone of [https://github.com/opuslogica/OpusWorldWind](https://github.com/opuslogica/OpusWorldWind)
+Run `npm run docs` to generate documentation for OpusWorldWind, which is rendered to './src/docs'.
+
+The documentation is generated from the code in `src/include/OpusWorldWind`,which is a direct clone of [https://github.com/opuslogica/OpusWorldWind](https://github.com/opuslogica/OpusWorldWind).
