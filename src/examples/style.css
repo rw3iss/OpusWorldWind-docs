@@ -13,7 +13,7 @@ html,body {
 	color: black;
 }
 
-.container .example-title {
+.container .title {
 	background: #ddd;
 	color: black;
 	padding: 10px;
@@ -23,6 +23,10 @@ html,body {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	margin-bottom: 10px;
+}
+
+.container .title a {
+	font-size: 12pt;
 }
 
 #canvasOne {

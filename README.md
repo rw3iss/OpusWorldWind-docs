@@ -1,4 +1,4 @@
-# OpusWorldWindDocs
+# OpusWorldWind-docs
 
 ## Overview
 
