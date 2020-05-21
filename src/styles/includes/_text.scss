@@ -1,0 +1,81 @@
+// Text mixins ----------------------------
+@import "lib/fontawesome/scss/fontawesome.scss";
+@import "lib/fontawesome/scss/brands.scss";
+
+@mixin text-xs {
+	font-size: var(--font-xs);
+}
+
+@mixin text-sm {
+	font-size: var(--font-sm);
+}
+
+@mixin text-md {
+	font-size: var(--font-md);
+}
+
+@mixin text-lg {
+	font-size: var(--font-lg);
+}
+
+@mixin text-xl {
+	font-size: var(--font-xl);
+}
+
+@mixin header {
+	margin: 0;
+}
+
+@mixin header-1 {
+	@include header;
+	font-size: var(--font-header-1);
+	font-weight: 700;
+}
+
+@mixin header-2 {
+	@include header;
+	font-size: var(--font-header-2);
+	font-weight: 900;
+}
+
+@mixin header-3 {
+	@include header;
+	font-size: var(--font-header-3);
+	font-weight: 900;
+}
+
+@mixin header-4 {
+	@include header;
+	font-size: var(--font-header-4);
+	font-weight: 900;
+}
+
+@mixin header-5 {
+	@include header;
+	font-size: var(--font-header-5);
+	font-weight: 900;
+}
+
+@mixin header-6 {
+	@include header;
+	font-size: var(--font-header-6);
+	font-weight: 900;
+}
+
+@mixin header-sub {
+	@include header;
+	font-size: var(--font-header-sub);
+	font-weight: 500;
+}
+
+@mixin header-sub-2 {
+	@include header;
+	font-size: var(--font-header-sub-2);
+	font-weight: 500;
+}
+
+@mixin text-gradient() {
+	background: -webkit-linear-gradient(45deg, $color-primary, $color-secondary);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,39 @@
+:host ::ng-deep {
+	*[view] {
+
+		.content .h4 {
+			margin-bottom: 15px;
+		}
+
+		.banner {
+			width: 100%;
+			height: 250px;
+			background: url('/assets/images/bg_raptor.png') no-repeat center center;
+			background-size: cover;
+		}
+	
+		.bottom {
+			width: 100%;
+			padding-top: 20px;
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f9f9f9+0,ededed+100 */
+			background: rgb(249,249,249); /* Old browsers */
+			background: -moz-linear-gradient(-45deg,  rgba(249,249,249,1) 0%, rgba(237,237,237,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(-45deg,  rgba(249,249,249,1) 0%,rgba(237,237,237,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(135deg,  rgba(249,249,249,1) 0%,rgba(237,237,237,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		
+			.inner {
+				margin: 0 auto;
+				padding: 20px;
+				max-width: 800px;
+	
+				.content {
+					margin-left: 40px;
+					min-width: 40vw;
+					line-height: 1.5em;
+				}
+			}
+		}
+
+	}
+}

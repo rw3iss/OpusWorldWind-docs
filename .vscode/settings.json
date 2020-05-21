@@ -1,0 +1,17 @@
+{
+  "files.exclude": {
+    "karma.conf.js": true,
+    "browserslist": true,
+    "package-lock.json": true,
+    ".vscode": true,
+    "src/favicon.ico": true,
+    "e2e": true,
+    "dist": true,
+    "node_modules": true,
+    "tsconfig.app.json": true,
+    ".editorconfig": true,
+    ".gitignore": true,
+    "src/polyfills.ts": true,
+    "tslint.json": true
+  }
+}

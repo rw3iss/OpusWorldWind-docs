@@ -1,0 +1,18 @@
+@import "styles/mixins";
+
+.nav {
+	padding: 15px 0;
+	border-radius: 10px;
+	background: $color-bg-dark;
+	min-width: 180px;
+
+	a {
+		padding: 10px 15px;
+		white-space: nowrap;
+		color: $link-color-light;
+		
+		&:hover {
+			background: #114B5F;
+		}
+	}
+}

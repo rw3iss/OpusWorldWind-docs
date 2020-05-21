@@ -1,0 +1,30 @@
+html,body {
+	background: black !important;
+}
+
+.example.container {
+	padding: 0px 10px;
+	background: black;
+	color: white;
+	max-height: 100vh;
+}
+
+.example.container button {
+	color: black;
+}
+
+.container .example-title {
+	background: #ddd;
+	color: black;
+	padding: 10px;
+	font-size: 15pt;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: 10px;
+}
+
+#canvasOne {
+	max-height: calc(100vh - 70px);
+}

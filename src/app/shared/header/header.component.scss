@@ -1,0 +1,63 @@
+@import "styles/mixins";
+
+.app-header {
+    align-items: center;
+        width: 100%;
+        height: $header-height;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00b7ea+0,009ec3+100;Blue+3D+%2315 */
+    background: $color-bg-dark;
+
+    .logo {
+        height: 100%;
+
+        a {
+            color: $link-color-light;
+            font-weight: bold;
+            font-size: var(--font-ml);
+            justify-content: flex-start;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;       
+            
+            &:hover {   
+                background: #114B5F;
+            }
+        }
+    }
+
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        padding: var(--pad-sm);
+        line-height: 1em;
+    }
+
+    nav {
+        height: 100%;
+        margin: 0 0 0 auto;
+        justify-content: flex-end;
+
+        a {
+            color: $link-color-light;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1em;
+            font-weight: bold;
+            white-space: nowrap;
+
+            @media all and (max-width: 700px) {
+                white-space: pre-wrap;
+            }
+
+            &:hover {   
+                background: #114B5F;
+            }
+        }
+    }
+
+}

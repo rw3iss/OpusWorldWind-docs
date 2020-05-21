@@ -1,0 +1,32 @@
+<div id="examples" view flex="col fill">
+
+	<div class="banner" flex="row"></div>
+
+	<div class="bottom" flex="row fill center-col">
+		
+		<div class="inner" flex="row center-col">
+			<app-navigation></app-navigation>
+
+			<div class="col content">
+				<div class="h4">Examples</div>
+				
+				<div class="examples">
+
+					<a href="{{e.path}}" target="_blank" class="example" *ngFor="let e of examples" flex="row">
+						<div class="col left">
+							<div class="image"></div>
+						</div>
+						<div class="col right">
+							<div class="name">{{e.name}}</div>
+							<div class="description">{{e.description}}</div>
+						</div>
+					</a>
+
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+</div>
